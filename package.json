@@ -1,6 +1,6 @@
 {
   "name": "@digicat/termination-manager",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The one true way of terminating services",
   "main": "index.js",
   "files": [
