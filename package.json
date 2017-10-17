@@ -1,0 +1,58 @@
+{
+  "name": "@digicat/termination-manager",
+  "version": "0.0.0",
+  "description": "The one true way of terminating services",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "coverage": "nyc npm test",
+    "lint": "as-i-preach",
+    "posttest": "as-i-preach",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDECatapult/termination-manager.git"
+  },
+  "author": "Digital Catapult (https://www.digitalcatapultcentre.org.uk/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CDECatapult/termination-manager/issues"
+  },
+  "homepage": "https://github.com/CDECatapult/termination-manager#readme",
+  "keywords": [
+    "clean",
+    "exit",
+    "graceful",
+    "process",
+    "sigint",
+    "sigterm",
+    "stop",
+    "terminate",
+    "uncaught-exception",
+    "unhandled-rejection"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@novemberborn/as-i-preach": "^10.1.0",
+    "ava": "^0.22.0",
+    "codecov": "^2.3.1",
+    "lolex": "^2.1.2",
+    "nyc": "^11.2.1",
+    "proxyquire": "^1.8.0",
+    "testdouble": "^3.2.4"
+  },
+  "nyc": {
+    "reporter": [
+      "html",
+      "lcov",
+      "text"
+    ]
+  },
+  "standard-engine": "@novemberborn/as-i-preach"
+}
